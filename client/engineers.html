@@ -25,11 +25,11 @@
 
 <div>
   <header>
-     <a id="logo" href="#">h.i</a>
+    <a id="logo" href="#">h.i</a>
     <nav>
       <ul>
-        <li><a href="#">Engineers</a></li>
-        <li><a href="#" id="current">Projects</a></li>
+        <li><a href="#" id="current">Engineers</a></li>
+        <li><a href="#">Projects</a></li>
         <form class="search-container">
           <input id="search-box" type="text" class="search-box" name="q" />
           <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
@@ -40,11 +40,15 @@
       </ul>
     </nav>
   </header>
-  <div id="newProject"></div>
+  <div id="engineers"></div>
 </div>
-  <script src="client/src/utils/projectHelpers.js"></script>
-  <script src="client/src/components/newProject.js"></script>
-  <script src="client/src/newProjectRender.js"></script>
+
+  <script src="client/src/data/data.js"></script>
+  <script src="client/src/components/Engineers.js"></script>
+  <script src="client/src/components/EngineerList.js"></script>
+  <script src="client/src/components/EngineerEntry.js"></script>
+  <script src="client/src/utils/engineerHelpers.js"></script>
+  <script src="client/src/engineersRender.js"></script>
 
 
   <script type="text/javascript">
